@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FAE96718DDB13F00F79B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAE96618DDB13F00F79B8D /* Foundation.framework */; };
+		03FAE96918DDB13F00F79B8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAE96818DDB13F00F79B8D /* CoreGraphics.framework */; };
+		03FAE96B18DDB13F00F79B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAE96A18DDB13F00F79B8D /* UIKit.framework */; };
+		03FAE97118DDB13F00F79B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03FAE96F18DDB13F00F79B8D /* InfoPlist.strings */; };
+		03FAE97318DDB13F00F79B8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FAE97218DDB13F00F79B8D /* main.m */; };
+		03FAE97718DDB13F00F79B8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FAE97618DDB13F00F79B8D /* AppDelegate.m */; };
+		03FAE97A18DDB13F00F79B8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03FAE97818DDB13F00F79B8D /* Main.storyboard */; };
+		03FAE97D18DDB13F00F79B8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FAE97C18DDB13F00F79B8D /* ViewController.m */; };
+		03FAE97F18DDB13F00F79B8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03FAE97E18DDB13F00F79B8D /* Images.xcassets */; };
+		03FAE98618DDB13F00F79B8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAE98518DDB13F00F79B8D /* XCTest.framework */; };
+		03FAE98718DDB13F00F79B8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAE96618DDB13F00F79B8D /* Foundation.framework */; };
+		03FAE98818DDB13F00F79B8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FAE96A18DDB13F00F79B8D /* UIKit.framework */; };
+		03FAE99018DDB13F00F79B8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03FAE98E18DDB13F00F79B8D /* InfoPlist.strings */; };
+		03FAE99218DDB13F00F79B8D /* FFmpegDemo_2014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FAE99118DDB13F00F79B8D /* FFmpegDemo_2014Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03FAE98918DDB13F00F79B8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03FAE95B18DDB13F00F79B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03FAE96218DDB13F00F79B8D;
+			remoteInfo = FFmpegDemo_2014;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FAE96318DDB13F00F79B8D /* FFmpegDemo_2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFmpegDemo_2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FAE96618DDB13F00F79B8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03FAE96818DDB13F00F79B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03FAE96A18DDB13F00F79B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03FAE96E18DDB13F00F79B8D /* FFmpegDemo_2014-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFmpegDemo_2014-Info.plist"; sourceTree = "<group>"; };
+		03FAE97018DDB13F00F79B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03FAE97218DDB13F00F79B8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03FAE97418DDB13F00F79B8D /* FFmpegDemo_2014-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFmpegDemo_2014-Prefix.pch"; sourceTree = "<group>"; };
+		03FAE97518DDB13F00F79B8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03FAE97618DDB13F00F79B8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03FAE97918DDB13F00F79B8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03FAE97B18DDB13F00F79B8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03FAE97C18DDB13F00F79B8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03FAE97E18DDB13F00F79B8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03FAE98418DDB13F00F79B8D /* FFmpegDemo_2014Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFmpegDemo_2014Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FAE98518DDB13F00F79B8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		03FAE98D18DDB13F00F79B8D /* FFmpegDemo_2014Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFmpegDemo_2014Tests-Info.plist"; sourceTree = "<group>"; };
+		03FAE98F18DDB13F00F79B8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03FAE99118DDB13F00F79B8D /* FFmpegDemo_2014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFmpegDemo_2014Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03FAE96018DDB13F00F79B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAE96918DDB13F00F79B8D /* CoreGraphics.framework in Frameworks */,
+				03FAE96B18DDB13F00F79B8D /* UIKit.framework in Frameworks */,
+				03FAE96718DDB13F00F79B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAE98118DDB13F00F79B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAE98618DDB13F00F79B8D /* XCTest.framework in Frameworks */,
+				03FAE98818DDB13F00F79B8D /* UIKit.framework in Frameworks */,
+				03FAE98718DDB13F00F79B8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03FAE95A18DDB13F00F79B8D = {
+			isa = PBXGroup;
+			children = (
+				03FAE96C18DDB13F00F79B8D /* FFmpegDemo_2014 */,
+				03FAE98B18DDB13F00F79B8D /* FFmpegDemo_2014Tests */,
+				03FAE96518DDB13F00F79B8D /* Frameworks */,
+				03FAE96418DDB13F00F79B8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03FAE96418DDB13F00F79B8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03FAE96318DDB13F00F79B8D /* FFmpegDemo_2014.app */,
+				03FAE98418DDB13F00F79B8D /* FFmpegDemo_2014Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03FAE96518DDB13F00F79B8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03FAE96618DDB13F00F79B8D /* Foundation.framework */,
+				03FAE96818DDB13F00F79B8D /* CoreGraphics.framework */,
+				03FAE96A18DDB13F00F79B8D /* UIKit.framework */,
+				03FAE98518DDB13F00F79B8D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03FAE96C18DDB13F00F79B8D /* FFmpegDemo_2014 */ = {
+			isa = PBXGroup;
+			children = (
+				03FAE97518DDB13F00F79B8D /* AppDelegate.h */,
+				03FAE97618DDB13F00F79B8D /* AppDelegate.m */,
+				03FAE97818DDB13F00F79B8D /* Main.storyboard */,
+				03FAE97B18DDB13F00F79B8D /* ViewController.h */,
+				03FAE97C18DDB13F00F79B8D /* ViewController.m */,
+				03FAE97E18DDB13F00F79B8D /* Images.xcassets */,
+				03FAE96D18DDB13F00F79B8D /* Supporting Files */,
+			);
+			path = FFmpegDemo_2014;
+			sourceTree = "<group>";
+		};
+		03FAE96D18DDB13F00F79B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03FAE96E18DDB13F00F79B8D /* FFmpegDemo_2014-Info.plist */,
+				03FAE96F18DDB13F00F79B8D /* InfoPlist.strings */,
+				03FAE97218DDB13F00F79B8D /* main.m */,
+				03FAE97418DDB13F00F79B8D /* FFmpegDemo_2014-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03FAE98B18DDB13F00F79B8D /* FFmpegDemo_2014Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03FAE99118DDB13F00F79B8D /* FFmpegDemo_2014Tests.m */,
+				03FAE98C18DDB13F00F79B8D /* Supporting Files */,
+			);
+			path = FFmpegDemo_2014Tests;
+			sourceTree = "<group>";
+		};
+		03FAE98C18DDB13F00F79B8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03FAE98D18DDB13F00F79B8D /* FFmpegDemo_2014Tests-Info.plist */,
+				03FAE98E18DDB13F00F79B8D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03FAE96218DDB13F00F79B8D /* FFmpegDemo_2014 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FAE99518DDB13F00F79B8D /* Build configuration list for PBXNativeTarget "FFmpegDemo_2014" */;
+			buildPhases = (
+				03FAE95F18DDB13F00F79B8D /* Sources */,
+				03FAE96018DDB13F00F79B8D /* Frameworks */,
+				03FAE96118DDB13F00F79B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFmpegDemo_2014;
+			productName = FFmpegDemo_2014;
+			productReference = 03FAE96318DDB13F00F79B8D /* FFmpegDemo_2014.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03FAE98318DDB13F00F79B8D /* FFmpegDemo_2014Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03FAE99818DDB13F00F79B8D /* Build configuration list for PBXNativeTarget "FFmpegDemo_2014Tests" */;
+			buildPhases = (
+				03FAE98018DDB13F00F79B8D /* Sources */,
+				03FAE98118DDB13F00F79B8D /* Frameworks */,
+				03FAE98218DDB13F00F79B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03FAE98A18DDB13F00F79B8D /* PBXTargetDependency */,
+			);
+			name = FFmpegDemo_2014Tests;
+			productName = FFmpegDemo_2014Tests;
+			productReference = 03FAE98418DDB13F00F79B8D /* FFmpegDemo_2014Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03FAE95B18DDB13F00F79B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shouian;
+				TargetAttributes = {
+					03FAE98318DDB13F00F79B8D = {
+						TestTargetID = 03FAE96218DDB13F00F79B8D;
+					};
+				};
+			};
+			buildConfigurationList = 03FAE95E18DDB13F00F79B8D /* Build configuration list for PBXProject "FFmpegDemo_2014" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03FAE95A18DDB13F00F79B8D;
+			productRefGroup = 03FAE96418DDB13F00F79B8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03FAE96218DDB13F00F79B8D /* FFmpegDemo_2014 */,
+				03FAE98318DDB13F00F79B8D /* FFmpegDemo_2014Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03FAE96118DDB13F00F79B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAE97F18DDB13F00F79B8D /* Images.xcassets in Resources */,
+				03FAE97118DDB13F00F79B8D /* InfoPlist.strings in Resources */,
+				03FAE97A18DDB13F00F79B8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAE98218DDB13F00F79B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAE99018DDB13F00F79B8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03FAE95F18DDB13F00F79B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAE97D18DDB13F00F79B8D /* ViewController.m in Sources */,
+				03FAE97718DDB13F00F79B8D /* AppDelegate.m in Sources */,
+				03FAE97318DDB13F00F79B8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03FAE98018DDB13F00F79B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FAE99218DDB13F00F79B8D /* FFmpegDemo_2014Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03FAE98A18DDB13F00F79B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03FAE96218DDB13F00F79B8D /* FFmpegDemo_2014 */;
+			targetProxy = 03FAE98918DDB13F00F79B8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03FAE96F18DDB13F00F79B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FAE97018DDB13F00F79B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03FAE97818DDB13F00F79B8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FAE97918DDB13F00F79B8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03FAE98E18DDB13F00F79B8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03FAE98F18DDB13F00F79B8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03FAE99318DDB13F00F79B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03FAE99418DDB13F00F79B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03FAE99618DDB13F00F79B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFmpegDemo_2014/FFmpegDemo_2014-Prefix.pch";
+				INFOPLIST_FILE = "FFmpegDemo_2014/FFmpegDemo_2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03FAE99718DDB13F00F79B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFmpegDemo_2014/FFmpegDemo_2014-Prefix.pch";
+				INFOPLIST_FILE = "FFmpegDemo_2014/FFmpegDemo_2014-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03FAE99918DDB13F00F79B8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFmpegDemo_2014.app/FFmpegDemo_2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFmpegDemo_2014/FFmpegDemo_2014-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FFmpegDemo_2014Tests/FFmpegDemo_2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		03FAE99A18DDB13F00F79B8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFmpegDemo_2014.app/FFmpegDemo_2014";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFmpegDemo_2014/FFmpegDemo_2014-Prefix.pch";
+				INFOPLIST_FILE = "FFmpegDemo_2014Tests/FFmpegDemo_2014Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03FAE95E18DDB13F00F79B8D /* Build configuration list for PBXProject "FFmpegDemo_2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAE99318DDB13F00F79B8D /* Debug */,
+				03FAE99418DDB13F00F79B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03FAE99518DDB13F00F79B8D /* Build configuration list for PBXNativeTarget "FFmpegDemo_2014" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAE99618DDB13F00F79B8D /* Debug */,
+				03FAE99718DDB13F00F79B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03FAE99818DDB13F00F79B8D /* Build configuration list for PBXNativeTarget "FFmpegDemo_2014Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03FAE99918DDB13F00F79B8D /* Debug */,
+				03FAE99A18DDB13F00F79B8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03FAE95B18DDB13F00F79B8D /* Project object */;
+}

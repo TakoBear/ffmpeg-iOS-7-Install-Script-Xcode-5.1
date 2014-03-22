@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+gas-preprocessor/
+ffmpeg/
+ffmpeg-*/
+build/

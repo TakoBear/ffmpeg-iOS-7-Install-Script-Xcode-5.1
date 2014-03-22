@@ -1,0 +1,2 @@
+- A newer version of ffmpeg script for the following condition:
+  iOS 7.1 + ffmpeg 2.1 + Xcode 5.1 + OS X 10.9.2
